@@ -1,3 +1,5 @@
+from tkinter.font import ITALIC
+
 import pandas as pd
 import torch
 
@@ -28,7 +30,7 @@ loss.backward() #working to minimize the loss function using backward propagatio
 optimizer.step() #perform one optimization step each function
 
 #This is for Optimizer App-- for Quiz problem see the code right below(It worked when I tried import torch.nn as nn and not import torch
-It is glad that it worked but I am still not sure why it worked when I tried torch.nn and not torch)
+It is is glad that it worked but I am still not sure why it worked when I tried torch.nn and not torch
 
 import torch.nn as nn
 
